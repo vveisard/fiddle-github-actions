@@ -10,6 +10,9 @@
       "bun": "./src/index.ts"
     }
   },
+  "scripts": {
+    "build": "bun ./scripts/build.ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
