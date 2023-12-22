@@ -1,5 +1,6 @@
 {
   "name": "@vveisard/fiddle-github-actions",
+  "version": "0.0.5",
   "type": "module",
   "files": [
     "./out"
