@@ -1,0 +1,22 @@
+{
+  "name": "fiddle-github-actions",
+  "type": "module",
+  "files": [
+    "./out"
+  ],
+  "exports": {
+    ".": {
+      "default": "./out/index.js",
+      "bun": "./src/index.ts"
+    }
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "@vveisard:registry": "https://npm.pkg.github.com"
+  }
+}
