@@ -1,5 +1,5 @@
 {
-  "name": "fiddle-github-actions",
+  "name": "@vveisard/fiddle-github-actions",
   "type": "module",
   "files": [
     "./out"
